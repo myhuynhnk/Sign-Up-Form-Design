@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up-form {
+    width: 60rem;
+    height: 40rem;
+    /* padding: 4rem; */
+    margin: 5% auto;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+
+.left-form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30rem;
+    height: 40rem;
+    padding: 40px;
+    background-color: #fff;
+    color: #a8a7a7;
+
+}
+
+.lef-form__h1 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+}
+
+.left-form__input {
+    display: block;
+    /* padding: 8px; */
+    width: 220px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #a8a7a7; 
+    transition: 0.2s ease-in;
+    
+}
+
+.left-form__btn {
+    padding: 8px;
+    margin-top: 15px;
+    width: 140px;
+    font-size: 1.6rem;
+    background-color: #f26346;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.left-form__btn:hover {
+    background-color: #ba470d;
+    transition: 0.2s ease-in;
+}
+
+.righ-form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30rem;
+    height: 40rem;
+    padding: 40px;
+    background-image: linear-gradient( to bottom ,rgba(0,0,0,0.2), rgba(0, 0, 0, 0.4)), url("social-network.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.righ-form__text {
+    display: block;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+.right-form__btn  {
+    display: block;
+    width: 220px;
+    height: 35px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 4px;
+    transition: 0.2 ease-in;
+    cursor: pointer;
+    color: #fff;
+}
+
+.right-form__btn-facebook {
+    background-color: #1877f2;
+}
+.right-form__btn-twitter {
+    background-color: #1d9bf0;
+}
+.right-form__btn-google {
+    background-color: #dd4b39;
+}
+
+.sign-up-form--OR {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #efefef;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
